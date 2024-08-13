@@ -1,0 +1,33 @@
+:root{
+    --dark: #127C89;
+    --darkContrast: #892012;
+
+    --light: #2CCEE3;
+    --lightContrast: #E3412C;
+
+    --black: #000000;
+    --white: #FFFFFF;
+
+}
+
+.dark{
+    background-color: var(--dark);
+    border-color: var(--darkContrast);
+    color: var(--white)
+
+}
+
+.light{
+    background-color: var(--light);
+    border-color: var(--lightContrast);
+    color: var(--black);
+
+}
+
+.dark a{
+    color: var(--white)
+}
+
+.light a{
+    color: var(--black);
+}
